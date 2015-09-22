@@ -1,0 +1,20 @@
+//meteor-scss-test.scss
+@import "imports";
+/* CSS declarations go here */
+body {
+  background-color: blue;
+  p {
+    font-size: $font-size;
+  }
+  :fullscreen a {
+    display: flex;
+  }
+
+  a {
+    transition: 1s;
+  }
+  @include medium-large{
+    display: flex;
+  }
+}
+

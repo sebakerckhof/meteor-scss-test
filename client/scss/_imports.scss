@@ -1,0 +1,8 @@
+$font-size: 100px;
+$small-break: 600px;
+
+@mixin medium-large(){
+  @media screen and (min-width: $small-break) {
+    @content;
+  }
+}
