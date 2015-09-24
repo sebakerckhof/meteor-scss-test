@@ -1,8 +1,11 @@
-$font-size: 100px;
-$small-break: 600px;
-
+$color:red;
+/*
 @mixin medium-large(){
   @media screen and (min-width: $small-break) {
     @content;
   }
+}
+*/
+.subimport{
+  color:$color;
 }

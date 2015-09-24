@@ -1,0 +1,8 @@
+@import "test1subimport";
+
+@import "{test:test2}/sub/test2import.scss";
+
+.test1sub{
+  color:$test1color;
+  background-color: $test2color;
+}
