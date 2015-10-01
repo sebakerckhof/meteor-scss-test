@@ -9,8 +9,9 @@ Package.describe({
 Package.onUse(function (api) {
   api.use(["meteor", 'fourseven:scss']);
   api.addFiles([
-      'sub/_test1subimport.scss',
-      'sub/test1sub.scss',
+      'sub/_3.scss',
+      'sub/_3_1.scss',
+      '_3_2.scss',
       'test1.scss'
   ],['client']);
 

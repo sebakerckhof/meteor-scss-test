@@ -1,15 +1,11 @@
-@import "_rootimport.scss";
-@import "rootimport2";
-@import "{}/topimport";
+@import "_1.scss";
+@import "{}/_2.scss";
+@import "{test1}/sub/_3.scss";
 
-@import "{test:test2}/sub/test2import";
+@import "{test:test2}/sub/_4.scss";
+
+@import "../_5.scss";
 
 .root{
-  color:$color;
-  background-color:$test2color;
-  border:1px solid purple;
-}
-
-.top{
-  color:$topcolor;
+  color:purple;
 }

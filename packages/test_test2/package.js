@@ -9,12 +9,17 @@ Package.describe({
 Package.onUse(function (api) {
   api.use(["meteor", 'fourseven:scss']);
   api.addFiles([
-      'test2.scss'
+      '2/_2_1_1.scss',
+      'sub/_4.scss',
+      'sub/_4_1.scss',
+      'sasstest.sass',
+      'variables/global/_3_1_1_1.scss',
+      'variables/_3_1_1.scss',
+      '_2_1.scss',
+      '_4_1_1.scss'
   ],['client']);
 
-  api.addFiles([
-      'sub/test2import.scss'
-  ],['client'],{isImport:true});
+  api.addFiles([],['client'],{isImport:true});
 });
 
 Package.on_test(function (api) {
